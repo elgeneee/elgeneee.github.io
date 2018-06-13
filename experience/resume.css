@@ -15,5 +15,13 @@ h1 {
 
 .section-title {
   text-transform: uppercase;
+  text-align: center;
+}
 
+.work-exp {
+    margin: center;
+
+    width: 500px;
+    height: 250px;
+    display: block;
 }
