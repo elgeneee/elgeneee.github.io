@@ -54,7 +54,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/desk.jpg') no-repeat top center ;
+  background: url('contact.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -64,27 +64,17 @@ header {
   line-height: 1.5;
 }
 
-header .profile-image {
-  margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 3px solid #39CCCC;
-  transition: all .5s;
-}
-header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
-}
-
 .blank {
+    margin-top: auto;
+    height: 150px;
     color: #001f3f;
     line-height: 1px;
-    padding-top: 50px;
+    padding-top: 200px;
+    font-size: 100px;
 }
 .tag {
   color: #ffffff;
   padding: 1px;
-  display: table;
   margin: 10px auto;
 
 }
