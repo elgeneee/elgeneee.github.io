@@ -54,7 +54,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('contact.jpg') no-repeat top center ;
+  background: url('contacts.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -67,7 +67,7 @@ header {
 .blank {
     margin-top: auto;
     height: 150px;
-    color: #001f3f;
+    color: #ffffff;
     line-height: 1px;
     padding-top: 200px;
     font-size: 100px;
