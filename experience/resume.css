@@ -1,27 +1,264 @@
+/* Global Layout Set-up */
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: "Arial";
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: #E0E0E0;
+}
+/* Link Styles */
+
+a {
+  text-decoration: none;
+  color: #39CCCC;
+}
+a:hover {
+  color: #6633ff;
 }
 
-.main-image {
-  border: solid 4px black;
-  border-radius: 50%;
+/* Section Styles */
+
+.main-nav {
+  width: 100%;
+  background: #001f3f;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  opacity: 0.8;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.nav .name {
+  display: none;
+}
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+.nav a {
+  transition: all .5s;
+}
+.nav a:hover {
+  color: white
 }
 
-h1 {
-  background-color: #e2e2e2;
-  padding: 5px;
+header {
+  text-align: center;
+  background: url('images/work.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+header {
+  line-height: 1.5;
+}
+
+.blank {
+    margin-top: auto;
+    height: 150px;
+    color: #001f3f;
+    line-height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 6vw;
+    text-align: center;
+}
+.tag {
+  color: #ffffff;
+  padding: 1px;
+  margin: 10px auto;
+
+}
+.location {
+  color: #001f3f;
+  line-height: 1px;
+}
+
+.card:hover {
+  border-color: #0499ff;
+}
+
+ul.skills {
+  padding: 0;
   text-align: center;
 }
 
-.section-title {
-  text-transform: uppercase;
-  text-align: center;
+.skills li {
+  border-radius: 6px;
+  display: inline-block;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+  font-size: 20px;
+}
+.skills li:nth-child(1) {
+  background: #A9A9A9;
+  transition: all 0.4s ease-in-out;
+}
+
+.skills li:nth-child(2) {
+  background: #A9A9A9;
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: all 0.4s ease-in-out;
+}
+
+.skills li:nth-child(2) {
+  background: #A9A9A9;
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: all 0.4s ease-in-out;
+}
+
+.skills li:nth-child(3) {
+  background: #A9A9A9;
+  padding-left: 12px;
+  padding-right: 12px;
+  transition: all 0.4s ease-in-out;
+}
+.skills li:nth-child(4) {
+  background: #A9A9A9;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: all 0.4s ease-in-out;
+}
+
+.skills li:nth-child(5) {
+  background: #A9A9A9;
+  transition: all 0.4s ease-in-out;
+}
+
+.skills li:nth-child(1):hover {
+    background-color: #DB4437;
+}
+
+.skills li:nth-child(2):hover {
+    background-color: #3B5998;
+}
+
+.skills li:nth-child(3):hover {
+    background-color: #0077B5;
+}
+
+.skills li:nth-child(4):hover {
+    background-color: #000000;
+}
+
+.skills li:nth-child(5):hover {
+    background-color: #1DA1F2;
+}
+
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px;
+}
+
+footer .copyright {
+  top: -8px;
+  margin-right: 20px;
+  font-size: .75em;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .5;
+  transition: all .25s;
+}
+a.twitter {
+  background-image: url(images/twitter.svg);
+}
+a.linkedin {
+  background-image: url(images/linkedin.svg);
+}
+a.github {
+  background-image: url(images/github.svg);
+}
+a.social:hover {
+  opacity: 1;
+}
+.clearfix {
+  clear: both;
 }
 
 .work-exp {
-    margin: center;
+    border: 2px solid #000000;
+    padding-top:5px ;
+    height: 770px;
+    width: 1280px;
+    border-radius: 6px;
+    border-top-left-radius: 6px;
+}
 
-    width: 500px;
-    height: 250px;
+.copyright {
+  padding-top: 100px;
+  top: -8px;
+  margin-right: 20px;
+  font-size: .75em;
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 720px) {
+
+  .flex {
+      display: flex;
+      max-width: 1200px;
+      justify-content: space-around;
+      margin: 0 auto;
+  }
+
+  header {
+    min-height: 450px;
+  }
+
+  .nav {
+    max-width: 1200px;
+  }
+
+  .nav .name {
     display: block;
+    margin-right: auto;
+    color: white;
+  }
+
+  main {
+    padding-top: 50px;
+  }
+
+  main p {
+    line-height: 1.6em;
+  }
+
+  footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+
 }
