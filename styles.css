@@ -30,6 +30,7 @@ a:hover {
   padding: 10px;
   position: fixed;
   text-align: center;
+  opacity: 0.8;
 }
 .nav {
   display: flex;
@@ -49,12 +50,15 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: white;
 }
 
 header {
   text-align: center;
-  background: url('images/desk.jpg') no-repeat top center ;
+  background: rgb(26, 188, 156);
+  background: -moz-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+  background: linear-gradient(135deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -71,9 +75,11 @@ header .profile-image {
   border-radius: 50%;
   border: 3px solid #39CCCC;
   transition: all .5s;
+  animation: float 6s ease-in-out infinite;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
+  animation: float 6s ease-in-out infinite;
 }
 
 .blank {
