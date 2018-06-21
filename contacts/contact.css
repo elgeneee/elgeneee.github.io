@@ -165,7 +165,8 @@ footer {
   padding: 20px 0 40px 20px;
 }
 
-footer .copyright {
+.copyright {
+  padding-top: 100px;
   top: -8px;
   margin-right: 20px;
   font-size: .75em;

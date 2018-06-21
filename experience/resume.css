@@ -92,11 +92,11 @@ li {
 }
 
 .list4 {
-    margin-right: 276px;
+    margin-right: 283px;
 }
 
 .list5 {
-    margin-right: 276px;
+    margin-right: 281px;
 }
 
 .honors {
@@ -134,6 +134,9 @@ li {
     color: #001f3f;
 }
 
+.company-name2 {
+    padding-top: 40px;
+}
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
 
