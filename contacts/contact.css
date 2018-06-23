@@ -104,37 +104,37 @@ ul.skills {
 }
 .skills li:nth-child(1) {
   background: #A9A9A9;
+  padding-left: 12px;
+  padding-right: 12px;
   transition: all 0.4s ease-in-out;
 }
 
 .skills li:nth-child(2) {
   background: #A9A9A9;
-  padding-left: 15px;
-  padding-right: 15px;
-  transition: all 0.4s ease-in-out;
-}
-
-.skills li:nth-child(2) {
-  background: #A9A9A9;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
   transition: all 0.4s ease-in-out;
 }
 
 .skills li:nth-child(3) {
   background: #A9A9A9;
+  transition: all 0.4s ease-in-out;
+}
+
+.skills li:nth-child(4) {
+  background: #A9A9A9;
   padding-left: 12px;
   padding-right: 12px;
   transition: all 0.4s ease-in-out;
 }
-.skills li:nth-child(4) {
+.skills li:nth-child(5) {
   background: #A9A9A9;
   padding-left: 10px;
   padding-right: 10px;
   transition: all 0.4s ease-in-out;
 }
 
-.skills li:nth-child(5) {
+.skills li:nth-child(6) {
   background: #A9A9A9;
   transition: all 0.4s ease-in-out;
 }
@@ -142,20 +142,23 @@ ul.skills {
 .skills li:nth-child(1):hover {
     background-color: #DB4437;
 }
-
 .skills li:nth-child(2):hover {
     background-color: #3B5998;
 }
 
 .skills li:nth-child(3):hover {
-    background-color: #0077B5;
+    background-color: #DB4437;
 }
 
 .skills li:nth-child(4):hover {
-    background-color: #000000;
+    background-color: #0077B5;
 }
 
 .skills li:nth-child(5):hover {
+    background-color: #000000;
+}
+
+.skills li:nth-child(6):hover {
     background-color: #1DA1F2;
 }
 
